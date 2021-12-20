@@ -1,0 +1,109 @@
+body{
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    min-height: 100vh;
+    text-align: center;
+}
+.top{
+    /* 设置宽度高度背景颜色 */
+    height: auto; /*高度改为自动高度*/
+    width:100%;
+    margin-left: 0;
+    background: rgb(191, 248, 243);
+    position: fixed; /*固定在顶部*/
+    top: 0;/*离顶部的距离为0*/
+    margin-bottom: 5px;
+}
+.top ul{
+    /* 清除ul标签的默认样式 */
+    /*width: auto;!*宽度也改为自动*!*/
+    /*list-style-type: none;*/
+    /*white-space:nowrap;*/
+    overflow: hidden;
+    margin-left: 5%;
+    padding: 0;
+
+}
+.top li {
+    float: left; /* 使li内容横向浮动，即横向排列  */
+    margin-right:2%;  /* 两个li之间的距离*/
+    position: relative;
+    overflow: hidden;
+}
+a{
+    text-decoration: none;
+}
+.top li a{
+    font-size: 16px;
+    color: #fff;
+    height: 78px;
+    line-height: 78px;
+    display: inline-block;
+    padding: 0 38px 0 28px;
+
+}
+*{
+    margin: 0;
+    list-style: none;
+}
+.top li a:hover{
+    /* 鼠标选中时背景变为黑色 */
+    background: #47c4bf;
+
+}
+img {
+    position: relative;
+    right: -150px;
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+}
+.layui-nav-item a {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    color: rgba(255,255,255,.7);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.layui-nav-img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.layui-nav-item a {
+    display: block;
+    padding: 0 20px;
+    color: #fff;
+    color: rgba(255,255,255,.7);
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+.layui-nav-img {
+    margin-top: 27px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+#sp{
+    color: #c4e3f3;
+    font-size: 15px;
+    position: relative;
+    top: 16px;
+    right: -156px;
+}
+#nav_img:hover{
+    transform: scale(2);
+}
+#loout:hover{
+    color: #BA2636;
+}
